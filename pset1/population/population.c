@@ -12,7 +12,7 @@ int main(void) {
     int end_size = 0;
     do {
         end_size = get_int("Target population size: ");
-    } while (end_size <= 0);
+    } while (end_size <= start_size);
 
     int population = start_size;
     int years = 0;
